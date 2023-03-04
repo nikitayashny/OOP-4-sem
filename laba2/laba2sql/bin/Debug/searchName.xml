@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataTable>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="TableXML" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="TableXML">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="id" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="size" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="weight" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="type" type="xs:string" minOccurs="0" />
+                <xs:element name="date" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="amount" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="price" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="producer" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+    <DocumentElement>
+      <TableXML diffgr:id="TableXML1" msdata:rowOrder="0">
+        <name>Laptop</name>
+        <id>6</id>
+        <size>10</size>
+        <weight>20</weight>
+        <type>Пакет</type>
+        <date>2023-03-01T00:00:00+03:00</date>
+        <amount>1</amount>
+        <price>12371</price>
+        <producer>Asus</producer>
+      </TableXML>
+      <TableXML diffgr:id="TableXML2" msdata:rowOrder="1">
+        <name>Something</name>
+        <id>5</id>
+        <size>20</size>
+        <weight>20</weight>
+        <type>Пакет</type>
+        <date>2023-02-27T00:00:00+03:00</date>
+        <amount>20</amount>
+        <price>10309</price>
+        <producer>Somebody</producer>
+      </TableXML>
+      <TableXML diffgr:id="TableXML3" msdata:rowOrder="2">
+        <name>Laptop</name>
+        <id>4</id>
+        <size>20</size>
+        <weight>400</weight>
+        <type>Ящик</type>
+        <date>2023-02-27T00:00:00+03:00</date>
+        <amount>30</amount>
+        <price>19588</price>
+        <producer>Asus</producer>
+      </TableXML>
+      <TableXML diffgr:id="TableXML4" msdata:rowOrder="3">
+        <name>Iphone 14</name>
+        <id>3</id>
+        <size>5</size>
+        <weight>200</weight>
+        <type>Коробка</type>
+        <date>2023-03-02T00:00:00+03:00</date>
+        <amount>10</amount>
+        <price>20619</price>
+        <producer>Apple</producer>
+      </TableXML>
+      <TableXML diffgr:id="TableXML5" msdata:rowOrder="4">
+        <name>Coca-Cola</name>
+        <id>1</id>
+        <size>29</size>
+        <weight>300</weight>
+        <type>Бутылка</type>
+        <date>2023-03-01T00:00:00+03:00</date>
+        <amount>100</amount>
+        <price>22680</price>
+        <producer>COCACOLA COMPANY</producer>
+      </TableXML>
+      <TableXML diffgr:id="TableXML6" msdata:rowOrder="5">
+        <name>Sprite</name>
+        <id>2</id>
+        <size>30</size>
+        <weight>50</weight>
+        <type>Бутылка</type>
+        <date>2023-03-01T00:00:00+03:00</date>
+        <amount>100</amount>
+        <price>9278</price>
+        <producer>COCACOLA COMPANY</producer>
+      </TableXML>
+      <TableXML diffgr:id="TableXML7" msdata:rowOrder="6">
+        <name>Phone</name>
+        <id>7</id>
+        <size>10</size>
+        <weight>30</weight>
+        <type>Коробка</type>
+        <date>2023-03-02T00:00:00+03:00</date>
+        <amount>23</amount>
+        <price>52577</price>
+        <producer>Huawei</producer>
+      </TableXML>
+      <TableXML diffgr:id="TableXML8" msdata:rowOrder="7">
+        <name>Phone</name>
+        <id>8</id>
+        <size>30</size>
+        <weight>40</weight>
+        <type>Коробка</type>
+        <date>2023-02-27T00:00:00+03:00</date>
+        <amount>24</amount>
+        <price>22680</price>
+        <producer>Xiaomi</producer>
+      </TableXML>
+      <TableXML diffgr:id="TableXML9" msdata:rowOrder="8">
+        <name>Car</name>
+        <id>9</id>
+        <size>10</size>
+        <weight>123</weight>
+        <type>Ящик</type>
+        <date>2023-03-01T00:00:00+03:00</date>
+        <amount>12</amount>
+        <price>62887</price>
+        <producer>BMW</producer>
+      </TableXML>
+    </DocumentElement>
+  </diffgr:diffgram>
+</DataTable>
